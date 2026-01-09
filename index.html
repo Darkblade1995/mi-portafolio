@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Luis Fernando Agamez | Software Engineer</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Fernando</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">About</a></li>
+                <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">Education</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">Projects</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+</div>
+
+<!-- HERO -->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="img/hero.png" alt="Luis Fernando Agamez">
+        </div>
+        <h1>Luis Fernando Agamez Atehortua</h1>
+        <h2>Software Engineer | Full-Stack Oriented Developer</h2>
+
+        <div class="redes">
+            <a href="https://github.com/Darkblade1995" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/luis-fernando-agamez-44383b267/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>About Me</h2>
+
+<p>
+    <span>I am Luis Fernando Agamez,</span>
+    a professional Software Engineer with a strong backend-oriented profile,
+    currently in active formation through a combination of
+    <strong>university-level engineering studies</strong>,
+    <strong>technical education</strong>, and
+    <strong>intensive, hands-on learning</strong>.
+    This ongoing academic and technical path allows me to continuously
+    strengthen both my theoretical foundation and my practical execution skills,
+    understanding not only how to build software systems,
+    but why engineering decisions matter in real-world scenarios.
+    <br><br>
+    Through my university studies in Software Engineering, I am developing
+    a solid grounding in <strong>computer science principles</strong>,
+    including object-oriented programming, data structures, algorithms,
+    databases, software architecture, and system design.
+    In parallel, my technical training at <strong>SENA</strong> reinforces
+    this knowledge with a strong emphasis on applied development,
+    disciplined coding practices, problem-solving methodologies,
+    and structured software planning under practical constraints.
+    <br><br>
+    At the same time, I am currently enrolled in a
+    <strong>Full Stack Web Development Bootcamp at BIT Institute</strong>,
+    where I work with modern frontend and backend technologies,
+    RESTful API design, database integration, and complete application workflows.
+    This experience strengthens my understanding of the full software lifecycle,
+    from requirements analysis and planning to implementation and deployment.
+    <br><br>
+    Beyond technical skills, I actively develop <strong>communication and software planning abilities</strong>,
+    recognizing their importance in engineering environments.
+    I value clear technical communication, requirement analysis,
+    and structured decision-making as essential components
+    for building reliable, scalable, and maintainable systems.
+    <br><br>
+    My work is openly documented on <strong>GitHub</strong>,
+    where I consistently publish projects, experiments, and learning-driven implementations.
+    I consider the <strong>continuous creation of software</strong> to be my strongest
+    professional statement, as it reflects discipline, growth,
+    and a genuine commitment to engineering craftsmanship.
+    <br><br>
+    I maintain a <strong>self-driven learning mindset</strong>,
+    continuously studying documentation, engineering concepts,
+    and system-level behavior while building personal projects.
+    I strongly believe in the benefits of software engineering as a discipline:
+    applying structure, efficiency, and long-term thinking to transform ideas
+    into robust and well-designed technological solutions.
+</p>
+
+
+
+        <div class="fila">
+            <div class="col">
+                <h3>Personal Information</h3>
+                <ul>
+                    <li><strong>Full Name:</strong> Luis Fernando Agamez Atehortua</li>
+                    <li><strong>Location:</strong> Barranquilla, Atlántico, Colombia</li>
+                    <li><strong>Email:</strong> luisagamez050@gmail.com</li>
+                    <li><strong>Phone:</strong> +57 313 614 3651</li>
+                    <li><strong>Title:</strong> Software Engineer</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Technical Interests</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                     <div class="interes"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                     <div class="interes"><i class="fa-brands fa-html5"></i><span>HTML & CSS</span></div>
+                    <div class="interes"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                    <div class="interes"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="interes"><i class="fa-solid fa-robot"></i><span>Robotics</span></div>
+                    <div class="interes"><i class="fa-solid fa-server"></i><span>Backend</span></div>
+                    <div class="interes"><i class="fa-solid fa-database"></i><span>Databases</span></div>
+                    <div class="interes"><i class="fa-solid fa-network-wired"></i><span>API Design</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+
+        <div class="fila">
+            <div class="col">
+                <h3>Programming & Engineering</h3>
+                <div class="skill"><span>C++ (OOP, Files, Data Structures)</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                <div class="skill"><span>Java</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                <div class="skill"><span>Python</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                <div class="skill"><span>JavaScript</span><div class="barra-skill"><div class="progreso"><span>70%</span></div></div></div>
+                <div class="skill"><span>PHP</span><div class="barra-skill"><div class="progreso"><span>65%</span></div></div></div>
+            </div>
+
+            <div class="col">
+                <h3>Web, Backend & Systems</h3>
+                <div class="skill"><span>HTML5 & CSS3</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                <div class="skill"><span>React & Django</span><div class="barra-skill"><div class="progreso"><span>65%</span></div></div></div>
+                <div class="skill"><span>RESTful API Design</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                <div class="skill"><span>MySQL & SQLite</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                <div class="skill"><span>Docker (Foundations)</span><div class="barra-skill"><div class="progreso"><span>60%</span></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Education</h2>
+
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Academic Background</h3>
+
+                <div class="item izq">
+                    <h4>Bachelor’s Degree in Software Engineering</h4>
+                    <span class="casa">Iberoamericana University</span>
+                    <span class="fecha">2024 – Present</span>
+                    <p>
+                        Software engineering education focused on system design,
+                        programming fundamentals, algorithms, and professional software development.
+                    </p>
+                    <div class="conectori"><div class="circuloi"></div></div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Technologist in Software Analysis and Development</h4>
+                    <span class="casa">SENA</span>
+                    <span class="fecha">2025 – Present</span>
+                    <p>
+                        Strong emphasis on C++ programming, object-oriented design,
+                        file handling, system methodologies, and logical problem solving.
+                    </p>
+                    <div class="conectori"><div class="circuloi"></div></div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Full Stack Web Development Bootcamp</h4>
+                    <span class="casa">BIT Institute</span>
+                    <span class="fecha">2026 – Present</span>
+                    <p>
+                        Intensive full stack training covering frontend and backend development,
+                        REST API construction, database integration, authentication,
+                        and complete web application workflows using modern technologies.
+                    </p>
+                    <div class="conectori"><div class="circuloi"></div></div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Leadership & Activities</h3>
+
+                <div class="item der">
+                    <h4>SENA Software Development Study Group</h4>
+                    <span class="casa">Active Member</span>
+                    <span class="fecha">Sep 2025 – Present</span>
+                    <p>
+                        Participation in collaborative coding sessions,
+                        technical discussions, problem-solving workshops,
+                        and peer-to-peer learning environments.
+                    </p>
+                    <div class="conectord"><div class="circulod"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>Projects</h2>
+
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/p1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Backend REST API</h3>
+                    <p>Java / Python / SQL</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/p2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Robotics Simulation</h3>
+                    <p>ROS / The Construct</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contact</h2>
+        <div class="fila">
+            <div class="col">
+                <a href="mailto:luisagamez050@gmail.com?subject=Contact%20from%20Portfolio" class="link-contacto">
+                    <button>
+                        Send Email <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+    <div class="redes">
+        <a href="https://github.com/Darkblade1995"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/luis-fernando-agamez-44383b267/"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
