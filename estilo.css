@@ -692,3 +692,97 @@ footer .arriba{
         width: 100%;
     }
 }
+
+
+.cv-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #00f5a0, #00d9f5);
+    color: #0b0b0b;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 20px rgba(0, 245, 160, 0.25);
+}
+
+.cv-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 245, 160, 0.4);
+}
+
+
+/* ===== PROJECT OVERLAY UPGRADE ===== */
+
+.proyecto .overlay {
+    background: rgba(15, 20, 25, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+/* Title */
+.overlay h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+/* Tech stack */
+.overlay .tech {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Description */
+.overlay .desc {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #e4e4e4;
+    margin-bottom: 16px;
+    padding: 0 5px;
+}
+
+/* Link */
+.project-links a {
+    color: #00e0c6;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #00e0c6;
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background: #00e0c6;
+    color: #000;
+}
+
+/* Featured highlight */
+.proyecto.featured {
+    border: 2px solid rgba(0, 224, 198, 0.4);
+    box-shadow: 0 0 25px rgba(0, 224, 198, 0.15);
+    transform: scale(1.03);
+}
+
+/* */
+
