@@ -550,7 +550,7 @@ html{
     justify-content: center; /* Centra el contenido horizontalmente */
 }
 
-/* Ajuste para el botón con tu estilo original */
+/* Ajuste para el botón con estilo original */
 .contacto button {
     cursor: pointer;
     background-color: transparent;
@@ -788,3 +788,58 @@ footer .arriba{
 
 /* */
 
+
+
+/* ================= PROJECTS ================= */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #2a3238;
+    padding: 1.6rem;
+    border-radius: 14px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+}
+
+.project-card h3 {
+    color: #2ecc9a;
+    margin-bottom: 0.8rem;
+}
+
+.project-card p {
+    color: #b0bec5;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.project-card .language {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #2ecc9a;
+    color: #0f1419;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+#botonGithub {
+     display: flex;
+    gap: 0.6rem;
+
+}
