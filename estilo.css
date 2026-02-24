@@ -843,3 +843,25 @@ footer .arriba{
     gap: 0.6rem;
 
 }
+
+.project-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-align: center;
+    border: 2px solid #2ecc9a; /* borde verde */
+    color: #2ecc9a; /* texto verde */
+    background-color: transparent;
+    box-shadow: 0 4px 12px rgba(46, 204, 154, 0.2);
+}
+
+.project-buttons a:hover {
+    background: #2ecc9a; /* relleno verde al pasar el mouse */
+    color: #0f1419; /* texto oscuro */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(46, 204, 154, 0.4);
+}
